@@ -1,5 +1,5 @@
 
-import Head from 'ext/head'
+import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import data from '../data/employees.json'
