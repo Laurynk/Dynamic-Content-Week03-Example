@@ -1,8 +1,6 @@
 const inter = Inter({ subsets: ['latin'] })
 
-import Head from 'next/head' 
-import data from '../data/employee.json'
-import { useState} from 'react';
+import Head from 'next/head'
 
 
 export default function About() {
