@@ -1,5 +1,5 @@
-const inter = Inter({ subsets: ['latin'] })
 
+import data from '../data/education.json'
 import Head from 'next/head'
 
 
