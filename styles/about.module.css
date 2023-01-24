@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+}
+
+.link {
+    color: blue;
+    font-family: sans-serif;
+    font-size: medium;
+}

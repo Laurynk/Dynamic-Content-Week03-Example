@@ -1,0 +1,22 @@
+[
+    {
+    "firstName": "Mark",
+    "lastName": "Lee",
+    "occupation": "doctor",
+    "graduated": 2014
+    },
+
+    {
+    "firstName": "Walter",
+    "lastName": "White",
+    "occupation": "chemistry teacher",
+    "graduated": 2010
+    },
+
+    {
+    "firstName": "Elon",
+    "lastName": "Musk",
+    "occupation": "CEO",
+    "graduated": 1995
+    }
+]

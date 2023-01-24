@@ -43,7 +43,6 @@
             "firstName": "Mark",
             "lastName": "Lee",
             "occupation": "doctor",
-            "degree": "medicine",
             "graduated": 2014
         },
     
@@ -51,7 +50,6 @@
             "firstName": "Walter",
             "lastName": "White",
             "occupation": "chemistry teacher",
-            "degree": "education",
             "graduated": 2010
         },
     
@@ -59,7 +57,6 @@
             "firstName": "Elon",
             "lastName": "Musk",
             "occupation": "CEO",
-            "degree": "business",
             "graduated": 1995
         }
 ]
