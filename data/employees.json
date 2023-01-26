@@ -1,22 +1,22 @@
 [
     {
     "firstName": "Mark",
-    "lastName": "Lee",
-    "occupation": "doctor",
-    "graduated": 2014
+    "lastName": "Lastname: Lee",
+    "position": "Position: Rapper",
+    "age": "Age: 23"
     },
 
     {
-    "firstName": "Walter",
-    "lastName": "White",
-    "occupation": "chemistry teacher",
-    "graduated": 2010
+    "firstName": "Taeyong",
+    "lastName": "Lastname: Lee",
+    "position": "Position: Leader",
+    "age": "Age: 27"
     },
 
     {
-    "firstName": "Elon",
-    "lastName": "Musk",
-    "occupation": "CEO",
-    "graduated": 1995
+    "firstName": "Kun",
+    "lastName": "Lastname: Qian",
+    "position": "Position: Leader",
+    "age": "Age: 27"
     }
 ]

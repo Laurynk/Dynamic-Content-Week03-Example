@@ -1,11 +1,12 @@
-.main {
+.main{
     display: flex;
     flex-direction: column;
-    align-self: baseline;
+    justify-content: center;
+    align-items: center;
 }
 
-.link {
-    color: blue;
-    font-family: sans-serif;
-    font-size: medium;
+.link{
+    text-decoration: none;
+    color: #171717;
+    font-weight: 800;
 }

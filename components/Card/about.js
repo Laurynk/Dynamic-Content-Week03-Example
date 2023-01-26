@@ -1,29 +1,80 @@
 export default function Card ({
-    name="none",
-    positon="none",
+    firstName="none",
+    lastName="none",
+    position="none",
+    age="none",
+    colourCard="none",
+    colourInfo="none",
     font="0",
-    fontColour="white"
+    fontColour="white",
+    image="icon/personTwo.png"
 }) {
     return (
         <div style={{
+            backgroundColor: colourCard, 
             fontSize: font,
             color: fontColour,
-            border: "5px groove",
             display: "flex",
-            alignItems: "center",
-            margin: "30px"
+            alignItems:"center",
+            borderRadius: "10px",
+            width: "600px",
+            padding: "40px",
+            margin: "40px",
+            fontWeight: "700"
         }}>
             <div style={{
-                marginRight: "50px",
-                marginLeft: "20px"
+                marginRight: "40px",
+                marginLeft: "10px"
             }}>
                 {
-                    name === "Mark Lee" ? <img src={"icon/person.png"} />:
-                    name === "Walter White" ? <img src={"icon/person.png"} />:
-                    name === "Elon Musk" ? <img src={"icon/person/png"} />:
-                    <img src={image}/>
+                    firstName === "Mark" ? <img src={'icon/mark.jpeg'} width='100' />:
+                    firstName === "Taeyong" ? <img src={'icon/kun.jpeg'} width='100' />:
+                    firstName === "Kun" ? <img src={'icon/taeyong.jpeg'} width='100'/>:
+                    <img src={image} width='100'/>
                 }
             </div>
+            <div style={{
+                backgroundColor: colourInfo,
+                borderRadius: "10px",
+                padding: "20px",
+                display: "flex",
+                flexDirection:"column",
+                alignItems: "center",
+                justifyContent: "center",
+                width: "180px"
+            }}>
+                <div style={{
+                    padding: "10px",
+                    width: "100%",
+                    backgroundColor: "#cced1d",
+                    color: "#171717",
+                    textAlign: "center",
+                    borderRadius: "5px"
+                }}>
+                    {firstName}
+                </div>
+                <div style={{
+                    padding: "10px",
+                    textAlign: "left",
+                    width: "100%"
+                }}>
+                    {position}
+                </div>
+                <div style={{
+                    padding: "10px",
+                    textAlign: "left",
+                    width: "100%"
+                }}>
+                    {lastName}
+                </div>
+                <div style={{
+                    padding: "10px",
+                    textAlign: "left",
+                    width: "100%"
+                }}>
+                    {age}
+                </div>
+            </div>   
         </div>
     )
 }
